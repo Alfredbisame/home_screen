@@ -23,7 +23,7 @@ export default function BisamePage() {
   return (
     <div className="bg-gray-50 min-h-screen pb-20">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-800 to-blue-950 p-2 flex items-center space-x-4">
+      <div className="bg-gradient-to-r from-blue-900 to-indigo-800 p-2 flex items-center space-x-4">
         <Image
           alt="Logo"
           className="rounded-lg shadow-lg"
@@ -64,7 +64,7 @@ export default function BisamePage() {
       >
         <SwiperSlide>
           <Link href="/register" className="group block">
-          <div className="bg-gradient-to-br from-orange-500 to-blue-900 rounded-3xl p-6 shadow-md hover:shadow-lg transition-shadow text-white">
+          <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-6 shadow-md hover:shadow-lg transition-shadow text-white">
           <Image
             alt="Register Guide"
             src="/f8.png"
@@ -86,7 +86,7 @@ export default function BisamePage() {
         </SwiperSlide>
         <SwiperSlide>
           <Link href="/seller-guide" className="group block">
-          <div className="bg-gradient-to-br from-orange-500 to-blue-900 rounded-3xl p-4 shadow-md hover:shadow-lg transition-shadow text-white">
+          <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-4 shadow-md hover:shadow-lg transition-shadow text-white">
               <Image
                 alt="Seller Guide"
                 src="/s6.png"
@@ -195,7 +195,7 @@ export default function BisamePage() {
       </div> */}
 
       {/* Footer Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-800 to-blue-950 shadow-lg p-2">
+      <nav className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-900 to-indigo-800 shadow-lg p-2">
       <div className="flex justify-around items-center relative">
         {navItems.map((nav) => {
           const isActive = activeTab === nav.label.toLowerCase();
