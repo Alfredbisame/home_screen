@@ -54,8 +54,8 @@ export default function BisamePage() {
         ))}
       </div>
     </div>
-
-      {/* Hero Carousel */}
+      
+     {/* Hero Carousel */}
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000 }}
@@ -64,44 +64,44 @@ export default function BisamePage() {
       >
         <SwiperSlide>
           <Link href="/register" className="group block">
-          <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-6 shadow-md hover:shadow-lg transition-shadow text-white">
-          <Image
-            alt="Register Guide"
-            src="/f8.png"
-            width={800}
-            height={400}
-            className="rounded-2xl mb-4"
-          />
-          <h3 className="text-xl font-semibold text-white mb-2">
-            New to Bisame? 🎉
-          </h3>
-          <p className="text-white/80">
-            Watch our quick tutorial to create your account in minutes
-          </p>
-          <div className="flex items-center mt-4 text-white group-hover:text-orange-300 transition-colors">
-            <i className="fas fa-play-circle mr-2" /> Watch Tutorial
-          </div>
-        </div>
+            <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-1 shadow-md hover:shadow-lg transition-shadow text-white h-64 max-h-64">
+              <Image
+                alt="Register Guide"
+                src="/f8.png"
+                width={600}
+                height={200}
+                className="rounded-2xl mb-1 h-32 w-full object-cover"
+              />
+              <h3 className="text-lg font-semibold text-white mb-1 px-2">
+                New to Bisame? 🎉
+              </h3>
+              <p className="text-white/80 text-sm px-2">
+                Watch our quick tutorial to create your account in minutes
+              </p>
+              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-300 transition-colors">
+                <i className="fas fa-play-circle mr-2 text-sm" /> Watch Tutorial
+              </div>
+            </div>
           </Link>
         </SwiperSlide>
         <SwiperSlide>
           <Link href="/seller-guide" className="group block">
-          <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-4 shadow-md hover:shadow-lg transition-shadow text-white">
+            <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-1 shadow-md hover:shadow-lg transition-shadow text-white h-64 max-h-64">
               <Image
                 alt="Seller Guide"
                 src="/s6.png"
-                width={800}
-                height={400}
-                className="rounded-2xl mb-4"
+                width={600}
+                height={200}
+                className="rounded-2xl mb-1 h-32 w-full object-cover"
               />
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-white mb-1 px-2">
                 Start Selling 💼
               </h3>
-              <p className="text-white/80">
+              <p className="text-white/80 text-sm px-2">
                 Learn how to set up your store and grow your business
               </p>
-              <div className="flex items-center mt-4 text-white group-hover:text-orange-300 transition-colors">
-                <i className="fas fa-store mr-2" /> Seller Resources
+              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-300 transition-colors">
+                <i className="fas fa-store mr-2 text-sm" /> Seller Resources
               </div>
             </div>
           </Link>
