@@ -60,7 +60,7 @@ export default function BisamePage() {
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000 }}
         pagination={{ clickable: true }}
-        className="my-2 px-2"
+        className="my-2 px-4"
       >
         <SwiperSlide>
           <Link href="/register" className="group block">
@@ -139,7 +139,7 @@ export default function BisamePage() {
       {/* Trending Section */}
       <div className="p-2">
         <h2 className="text-2xl font-bold text-blue-900 mb-4">Trending</h2>
-        <div className="space-y-4">
+        <div className="space-y-2">
           {[
             {
               img: "/02.png",
@@ -159,7 +159,7 @@ export default function BisamePage() {
               desc: "Professional printing services",
             },
           ].map((item, index) => (
-            <Link href={`/business/${index + 1}`} key={index} className="block bg-white rounded-3xl p-4 shadow-md hover:shadow-lg transition-shadow">
+            <Link href={`/business/${index + 1}`} key={index} className="block bg-white rounded-2xl p-2 shadow hover:shadow-md transition-shadow">
               <div className="flex space-x-6">
                 <Image
                   alt={item.name}
