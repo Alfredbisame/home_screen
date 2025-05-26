@@ -60,11 +60,11 @@ export default function BisamePage() {
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000 }}
         pagination={{ clickable: true }}
-        className="my-4 px-2"
+        className="my-2 px-2"
       >
         <SwiperSlide>
           <Link href="/register" className="group block">
-            <div className="bg-gradient-to-br from-orange-600 to-indigo-800 rounded-3xl p-1 shadow-md hover:shadow-lg transition-shadow text-white h-64 max-h-64">
+            <div className="bg-gradient-to-br from-orange-600 to-blue-800 rounded-3xl p-1 shadow-md hover:shadow-lg transition-shadow text-white h-64 max-h-64">
               <Image
                 alt="Register Guide"
                 src="/f8.png"
@@ -78,7 +78,7 @@ export default function BisamePage() {
               <p className="text-white/80 text-sm px-2">
                 Watch our quick tutorial to create your account in minutes
               </p>
-              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-300 transition-colors">
+              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-400 transition-colors">
                 <i className="fas fa-play-circle mr-2 text-sm" /> Watch Tutorial
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function BisamePage() {
               <p className="text-white/80 text-sm px-2">
                 Learn how to set up your store and grow your business
               </p>
-              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-300 transition-colors">
+              <div className="flex items-center mt-1 px-2 text-white group-hover:text-orange-400 transition-colors">
                 <i className="fas fa-store mr-2 text-sm" /> Seller Resources
               </div>
             </div>
@@ -137,9 +137,9 @@ export default function BisamePage() {
     </div>
 
       {/* Trending Section */}
-      <div className="p-4">
-        <h2 className="text-2xl font-bold text-blue-900 mb-6">Trending</h2>
-        <div className="space-y-6">
+      <div className="p-2">
+        <h2 className="text-2xl font-bold text-blue-900 mb-4">Trending</h2>
+        <div className="space-y-4">
           {[
             {
               img: "/02.png",
